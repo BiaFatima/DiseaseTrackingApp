@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_gradient_background"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Disease Tracking App"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="30dp" />
+
+        <!-- COVID-19 -->
+        <LinearLayout
+            android:id="@+id/cardCovid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_background"
+            android:elevation="6dp"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:src="@drawable/covid_image"
+                android:scaleType="centerCrop"
+                android:contentDescription="COVID-19 Image" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnCovid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View COVID-19 Analytics"
+                android:layout_marginTop="10dp"
+                app:cornerRadius="12dp"
+                android:backgroundTint="#FF6F61"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <!-- Influenza -->
+        <LinearLayout
+            android:id="@+id/cardInfluenza"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_background"
+            android:elevation="6dp"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:src="@drawable/influenza_png"
+                android:scaleType="centerCrop"
+                android:contentDescription="Influenza Image" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnInfluenza"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View Influenza Analytics"
+                android:layout_marginTop="10dp"
+                app:cornerRadius="12dp"
+                android:backgroundTint="#26C6DA"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <!-- Norovirus -->
+        <LinearLayout
+            android:id="@+id/cardNorovirus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_background"
+            android:elevation="6dp"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:src="@drawable/norovirus_image"
+                android:scaleType="centerCrop"
+                android:contentDescription="Norovirus Image" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnNorovirus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View Norovirus Analytics"
+                android:layout_marginTop="10dp"
+                app:cornerRadius="12dp"
+                android:backgroundTint="#BA68C8"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+        <!-- Dengue -->
+        <LinearLayout
+            android:id="@+id/cardDengue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_background"
+            android:elevation="6dp"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:src="@drawable/dengue_image"
+                android:scaleType="centerCrop"
+                android:contentDescription="Dengue Image" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnDengue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View Dengue Analytics"
+                android:layout_marginTop="10dp"
+                app:cornerRadius="12dp"
+                android:backgroundTint="#FDD835"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <!-- Health News -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/card_background"
+            android:elevation="6dp"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:src="@drawable/news"
+                android:scaleType="centerCrop"
+                android:contentDescription="Health News" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnNews"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Latest Health News"
+                android:layout_marginTop="10dp"
+                app:cornerRadius="12dp"
+                android:backgroundTint="#4DB6AC"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
