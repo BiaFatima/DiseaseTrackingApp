@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Base.Theme.DiseaseTrackerApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/primary_dark</item>
+        <item name="colorPrimaryVariant">@color/primary_light</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+        <!-- Custom components -->
+        <item name="materialCardViewStyle">@style/Widget.DiseaseTrackerApp.CardView</item>
+        <item name="materialButtonStyle">@style/Widget.DiseaseTrackerApp.Button</item>
+    </style>
+
+    <!-- Main theme that inherits from base -->
+    <style name="Theme.DiseaseTrackerApp" parent="Base.Theme.DiseaseTrackerApp" />
+</resources>

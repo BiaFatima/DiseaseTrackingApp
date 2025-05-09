@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Basic Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color> <!-- Keep only one definition of white -->
+    <color name="gray_700">#616161</color>
+    <color name="white_70">#B3FFFFFF</color>
+    <color name="white_90">#E6FFFFFF</color>
+
+    <!-- Theme Colors -->
+    <color name="primary_dark">#2b2e4a</color>
+    <color name="primary_light">#534BAE</color>
+    <color name="secondary">#FFBB86FC</color>
+    <color name="secondary_dark">#FF6200EE</color>
+
+    <!-- Disease Colors -->
+    <color name="covid_primary">#E53935</color>
+    <color name="covid_secondary">#EF5350</color>
+
+    <color name="influenza_primary">#039BE5</color>
+    <color name="influenza_secondary">#29B6F6</color>
+
+    <color name="norovirus_primary">#8E24AA</color>
+    <color name="norovirus_secondary">#AB47BC</color>
+
+    <color name="dengue_primary">#FB8C00</color>
+    <color name="dengue_secondary">#FFA726</color>
+
+    <!-- UI Colors -->
+    <color name="card_bg">#D3D1D1</color>
+    <color name="countycode_bg">#EAE9E9</color>
+    <color name="blue">#38ACDD</color>
+    <color name="green">#FF008000</color>
+    <color name="yellow">#FFFFEB3B</color>
+    <color name="red">#FFFF0000</color>
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="relative_bg">#EFEFEF</color>
+    <color name="black_70">#B3000000</color>
+    <color name="colorStart">#ff7e5f</color>   <!-- Pinkish Red -->
+    <color name="colorEnd">#feb47b</color>
+    <color name="news_primary">#ffcc00</color>
+</resources>
