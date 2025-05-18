@@ -11,6 +11,12 @@
     <string name="increment_number">+232325</string>
     <string name="number">2323236544</string>
     <string name="covid_19">COVID-19</string>
+    <string-array name="regions">
+        <item>nat</item>
+        <item>hhs1</item>
+        <item>hhs2</item>
+        <!-- etc… -->
+    </string-array>
 
 
 

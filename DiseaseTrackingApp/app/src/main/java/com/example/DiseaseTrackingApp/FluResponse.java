@@ -1,22 +1,22 @@
 package com.example.DiseaseTrackingApp;
 
-import com.example.DiseaseTrackingApp.InfluenzaModelClass;
-
+import com.google.gson.annotations.SerializedName;
 import java.util.List;
 
-// Wrapper class for the API response
 public class FluResponse {
+    @SerializedName("result")
+    private int result;
 
-    // This field will hold the list of InfluenzaModelClass objects
-    private List<InfluenzaModelClass> data;
+    @SerializedName("message")
+    private String message;
 
-    // Getter for the data list
-    public List<InfluenzaModelClass> getData() {
-        return data;
-    }
+    @SerializedName("epidata")
+    private List<InfluenzaModelClass> epidata;
 
-    // Setter for the data list
-    public void setData(List<InfluenzaModelClass> data) {
-        this.data = data;
-    }
+    // getters and setters
+    public int getResult() { return result; }
+    public String getMessage() { return message; }
+    public List<InfluenzaModelClass> getEpidata() { return epidata; }
 }
+
+

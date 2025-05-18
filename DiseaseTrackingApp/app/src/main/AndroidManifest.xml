@@ -16,7 +16,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.DiseaseTrackerApp"
-        tools:targetApi="31">
+        tools:targetApi="31"
+        android:usesCleartextTraffic="true"
+        android:networkSecurityConfig="@xml/network_security_config">
+
+
 
         <!-- Launcher: HomeActivity -->
         <activity android:name=".HomeActivity"
@@ -32,6 +36,8 @@
         <activity android:name=".InfluenzaMainActivity" android:exported="true" />
        <activity android:name=".NorovirusMainActivity" android:exported="true" />
         <activity android:name=".DengueMainActivity" android:exported="true" />
+
+
 
 
 

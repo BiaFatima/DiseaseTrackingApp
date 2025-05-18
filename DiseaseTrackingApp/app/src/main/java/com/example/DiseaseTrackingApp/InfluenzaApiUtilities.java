@@ -10,10 +10,11 @@ public class InfluenzaApiUtilities {
     public static InfluenzaAPIInterface getAPIInterface() {
         if (retrofit == null) {
             retrofit = new Retrofit.Builder()
-                    .baseUrl(InfluenzaAPIInterface.BASE_URL)  // Use Delphi API base URL
-                    .addConverterFactory(GsonConverterFactory.create())
+                    .baseUrl("http://192.168.100.56:5000/") // <-- This is your base URL
+                    .addConverterFactory(GsonConverterFactory.create()) // For JSON parsing
                     .build();
         }
         return retrofit.create(InfluenzaAPIInterface.class);
     }
+
 }
